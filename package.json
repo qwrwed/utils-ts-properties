@@ -1,0 +1,23 @@
+{
+  "name": "utils-ts-properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "del-cli dist",
+    "test": "npx ts-node scripts/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwrwed/utils-ts-properties.git"
+  },
+  "author": "qwrwed",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
